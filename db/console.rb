@@ -16,7 +16,7 @@ artist2.save()
 
 album1 = Album.new({
   'album_title' => 'Running out of Time',
-  'release_date' => '25/9/2019',
+  'genre' => 'new age',
   'artist_id' => artist1.id
   })
 
@@ -24,7 +24,7 @@ album1.save()
 
 album2 = Album.new({
   'album_title' => 'Low Tide',
-  'release_date' => '8/9/2019',
+  'genre' => 'sailor shanty',
   'artist_id' => artist2.id })
 
 album2.save()
